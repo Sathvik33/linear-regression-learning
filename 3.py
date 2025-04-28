@@ -81,3 +81,7 @@ plt.xlabel(feature_name)
 plt.ylabel('Price')
 plt.legend()
 plt.show()
+
+# Print model coefficients and intercept
+print("Model Coefficients:", model.best_estimator_.coef_)
+print("Model Intercept:", model.best_estimator_.intercept_)
